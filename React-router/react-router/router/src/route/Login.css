@@ -1,0 +1,89 @@
+/* Login.css */
+
+/* Login Page Container */
+.login-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: #f0f0f0;
+   }
+   
+   /* Form Container */
+   .login-form {
+     background-color: white;
+     padding: 40px;
+     border-radius: 10px;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+     width: 100%;
+     max-width: 400px;
+     text-align: center;
+   }
+   
+   /* Form Heading */
+   .login-form h1 {
+     font-size: 2rem;
+     color:  #ff7f50;
+     margin-bottom: 20px;
+   }
+   
+   /* Form Group */
+   .form-group {
+     margin-bottom: 20px;
+     text-align: left;
+   }
+   
+   .form-group label {
+     display: block;
+     font-size: 1rem;
+     margin-bottom: 5px;
+     color: #666;
+   }
+   
+   .form-group input {
+     width: 100%;
+     padding: 10px;
+     font-size: 1rem;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+     margin-top: 5px;
+     box-sizing: border-box;
+   }
+   
+   .form-group input:focus {
+     outline: none;
+     border-color: #ff7f50;
+   }
+   
+   /* Login Button */
+   .login-button {
+     background-color: #ff7f50;
+     color: white;
+     padding: 12px 20px;
+     font-size: 1rem;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s;
+     width: 100%;
+     margin-top: 10px;
+   }
+   
+   .login-button:hover {
+     background-color: #ff4500;
+   }
+   
+
+   .checkbox-group{
+     display: flex;
+     align-items: center;
+     margin: 25px 0;
+     font-size: 1rem;
+     color: #666;
+    
+   }
+   
+   .remember
+   {
+     margin-left: 25px;
+   }
